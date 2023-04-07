@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+  width: 100%;
+  position: relative;
+  padding: 0.5rem 0rem;
+  background-color: #fff;
+  border-bottom: 2px solid;
+}
+
+.logo {
+  color: black;
+  font-size: 1.3rem;
+  margin-left: 1rem;
+}
+
+.search__bar {
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 1rem;
+}
+
+.search__bar button {
+  margin-left: 1rem;
+}
