@@ -1,6 +1,5 @@
 'use client';
 
-import Header from '../components/organisms/Header';
 import { CacheProvider } from '@chakra-ui/next-js';
 import { ChakraProvider } from '@chakra-ui/react';
 import { MyAccountProvider } from '../hooks/MyAccountContext'

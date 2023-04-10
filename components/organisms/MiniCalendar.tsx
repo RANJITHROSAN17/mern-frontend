@@ -1,3 +1,4 @@
+'use client';
 import { CalendarContainer } from "../../libs/chakra-datepicker/CalendarContainer"; 
 import { CalendarProps } from "../../libs/chakra-datepicker/props";
 type MiniCalendarProps = {
