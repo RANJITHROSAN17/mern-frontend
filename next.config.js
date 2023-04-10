@@ -4,7 +4,7 @@ const nextConfig = {
   swcMinify: true,
   experimental:{ appDir: true },
   reactStrictMode: false,
-  basePath: '/UI',
-}
+  basePath: '/mern-frontend',
+} 
 
 module.exports = nextConfig
