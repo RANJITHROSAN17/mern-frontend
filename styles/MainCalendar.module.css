@@ -1,0 +1,4 @@
+.main__calendar{
+    display: grid;
+    grid-template-rows: 75px 1fr;
+}
