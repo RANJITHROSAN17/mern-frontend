@@ -1,6 +1,6 @@
 import CheckboxList from "../molecules/CheckboxList";
 import AvatarMenu from "../molecules/AvatarMenu";
-import MiniCalendar from "../molecules/MiniCalendar";
+import MiniCalendar from "../molecules/MiniCalendar/MiniCalendar";
 import styles from '../../styles/Sidebar.module.css';
 const Sidebar = () => {
     return (
