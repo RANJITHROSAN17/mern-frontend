@@ -1,4 +1,4 @@
-export const DAY_NAMES = [ 'Lu', 'Ma', 'Mi', 'Jo', 'Vi', 'Sa', 'Du'];
+export const DAY_NAMES = ['Lu', 'Ma', 'Mi', 'Jo', 'Vi', 'Sa', 'Du'];
 export const SHORT_MONTH_NAMES = [
     'Ian',
     'Feb',
@@ -30,9 +30,8 @@ export const FULL_MONTH_NAMES = [
 
 
 export const CalendarShowTypes = {
-    Today : "Today",
-    Day : "Day",
-    Week : "W",
-    Month  : "M",
-    Year : "Y",
-  }
+    Day: "Day",
+    Week: "W",
+    Month: "M",
+    Year: "Y",
+}

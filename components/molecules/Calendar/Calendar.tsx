@@ -1,14 +1,11 @@
 import React,{useState,useEffect} from 'react'
-import { emptyView, TodayView, DayView, WeekView, MonthView, YearView } from './index';
+import { EmptyView, DayView, WeekView, MonthView, YearView } from './index';
 const Calendar = ({ShowType}) => {
     type CalendarView =  React.ReactNode;
-    const [currentView, setCurrentView] = useState<CalendarView>(emptyView);
+    const [currentView, setCurrentView] = useState<CalendarView>(EmptyView);
     useEffect(() => {
-        let view = emptyView
+        let view = EmptyView
         switch (ShowType) {
-            case "Today":
-                view = TodayView;
-                break;
             case "Day":
                 view = DayView;
                 break;
