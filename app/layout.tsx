@@ -1,7 +1,5 @@
 'use client';
 
-import { CacheProvider } from '@chakra-ui/next-js';
-import { ChakraProvider } from '@chakra-ui/react';
 // import { MyAccountProvider } from '../hooks/MyAccountContext'
 import "../styles/globals.css"
 export default function RootLayout({
@@ -14,13 +12,9 @@ export default function RootLayout({
      <head/>
       <body>
         <main>
-          <CacheProvider>
-            <ChakraProvider>
               {/* <MyAccountProvider> */}
                 {children}
               {/* </MyAccountProvider> */}
-            </ChakraProvider>
-          </CacheProvider>
         </main>
       </body>
     </html>

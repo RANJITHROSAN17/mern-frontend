@@ -1,5 +1,4 @@
 'use client'
-import {  IconButton } from '@chakra-ui/react';
 import Divider from '../../atoms/Divider';
 import React, { useEffect } from 'react';
 import { IoCaretBack, IoCaretForward } from 'react-icons/io5';
@@ -50,24 +49,15 @@ const onYearChange = () => {
 return (
     <>
         <div className='flex my-2 items-center'>
-            <IconButton
-                icon={<IoCaretBack />}
-                size="sm"
-                aria-label="previous"
-                onClick={onChange('backward')}
-            />
+        <IoCaretBack onClick={onChange('backward')}/>
+            
             <div
                 className='flex flex-1 justify-center font-bold text-lg select-none cursor-pointer'
                 onClick={onYearChange}
             >
                 {!isSelectingYear ? `${FULL_MONTH_NAMES[date?.getMonth()]} ${date?.getFullYear()}` : 'Back'}
             </div>
-            <IconButton
-                icon={<IoCaretForward />}
-                size="sm"
-                aria-label="next"
-                onClick={onChange('forward')}
-            />
+        <IoCaretForward onClick={onChange('forward')} />
         </div>
         <Divider />
     </>

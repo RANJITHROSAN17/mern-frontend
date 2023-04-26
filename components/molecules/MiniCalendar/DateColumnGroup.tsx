@@ -1,6 +1,6 @@
 'use client';
 import React from 'react';
-import { Button } from '@chakra-ui/react';
+import Button from '../../atoms/Button';
 import { DateColumnHelper  }  from './DateHelper';
 interface ColumnGroupProps {
     dates: Date[];
@@ -29,11 +29,10 @@ export const DateColumnGroup: React.FC<ColumnGroupProps> = ({
                 {dates.map((n, i) => (
                     <Button
                         key={i}
-                        size="md"
                         onClick={handleSelect(n)}
-                        variant={helper.selected(n) ? 'solid' : 'ghost'}
-                        colorScheme={helper.selected(n) ? 'teal' : undefined}
-                        color={helper.outOfMonth(n) ? 'gray.400' : undefined}
+                        // variant={helper.selected(n) ? 'solid' : 'ghost'}
+                        // colorScheme={helper.selected(n) ? 'teal' : undefined}
+                        // color={helper.outOfMonth(n) ? 'gray.400' : undefined}
                     >
                         {helper.getButtonText(n, fragment)}
                     </Button>

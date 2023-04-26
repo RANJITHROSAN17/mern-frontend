@@ -1,8 +1,7 @@
-import {Button} from '@chakra-ui/react';
-import React, { useMemo } from 'react';
+import React from 'react';
 import {useCalendar} from '../../../hooks/CalendarContext';
 import { DateColumnHelper } from './DateHelper';
-
+import Button from '../../atoms/Button';
 
 interface ColumnProps {
     dates: Date[];
@@ -43,11 +42,7 @@ export const Days: React.FC<ColumnProps> = ({
             {dates.map((n, i) => (
                 <Button
                     key={i}
-                    size="md"
                     onClick={handleSelect(n)}
-                    variant={helper.selected(n) ? 'solid' : 'ghost'}
-                    colorScheme={helper.selected(n) ? 'teal' : undefined}
-                    color={helper.outOfMonth( n) ? 'gray.400' : undefined}
                 >
                     {helper.getButtonText(n, 'day')}
                 </Button>
