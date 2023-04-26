@@ -27,3 +27,12 @@ export const FULL_MONTH_NAMES = [
     'Noiembrie',
     'Decembrie',
 ];
+
+
+export const CalendarShowTypes = {
+    Today : "Today",
+    Day : "Day",
+    Week : "W",
+    Month  : "M",
+    Year : "Y",
+  }
