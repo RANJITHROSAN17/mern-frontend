@@ -1,0 +1,43 @@
+.main__calendar{
+    display: grid;
+    grid-template-rows: 75px 1fr;
+}
+.day__name{
+        line-height: 32px;
+        position: relative;
+        z-index: 5;
+        color: #70757a;
+        font-size: 11px;
+        font-weight: 500;
+        letter-spacing: .8px;
+        margin-left: 0;
+        margin-top: 8px;
+        text-transform: uppercase;
+        text-align: center;
+}
+
+.day__number{
+    color: #70757a;
+        position: relative;
+        z-index: 5;
+        font-size: 26px;
+        letter-spacing: -2.6px;
+        border-radius: 100%;
+        color: rgb(60,64,67);
+        font-family: "Google Sans",Roboto,Arial,sans-serif;
+        line-height: 46px;
+        height: 46px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -8px;
+        width: 46px;
+        display: -moz-box;
+        display: flex;
+        -moz-box-orient: vertical;
+        -moz-box-direction: normal;
+        flex-direction: column;
+        -moz-box-pack: center;
+        justify-content: center;
+        font-weight: 400;
+        text-align: center;
+}
