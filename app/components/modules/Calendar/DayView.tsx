@@ -1,4 +1,4 @@
-import styles from '../../../styles/MainCalendar.module.css';
+import styles from '@/styles/MainCalendar.module.css';
 
 
 

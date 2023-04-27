@@ -1,7 +1,7 @@
 'use client';
 import React from "react"
 // import { MyAccountProvider } from '../hooks/MyAccountContext'
-import "../styles/globals.css"
+import "@/styles/globals.css"
 import ProviderWrapper from "./ProviderWrapper";
 export default function RootLayout({
   children,

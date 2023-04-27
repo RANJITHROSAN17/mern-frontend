@@ -1,7 +1,7 @@
 'use client';
-import Divider from '../../atoms/Divider';
+import Divider from '@/components/atoms/Divider';
 import React, { useEffect } from 'react';
-import { useCalendar } from '../../../hooks/CalendarContext';
+import { useCalendar } from '@/hooks/useCalendar';
 import { DateColumnGroup } from './DateColumnGroup';
 import { getMonths, getNearbyYears } from './DateHelper';
 export const CalendarYears = () => {

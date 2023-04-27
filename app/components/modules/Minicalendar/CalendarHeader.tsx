@@ -2,8 +2,8 @@
 import Divider from '../../atoms/Divider';
 import React, { useEffect } from 'react';
 import { IoCaretBack, IoCaretForward } from 'react-icons/io5';
-import { FULL_MONTH_NAMES } from '../../../@types/constants';
-import { useCalendar } from '../../../hooks/CalendarContext';
+import { FULL_MONTH_NAMES } from '../../../../types/constants';
+import { useCalendar } from '@/hooks/useCalendar';
 
 /**
  * it shows the left and right arrows to change the month

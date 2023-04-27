@@ -1,6 +1,6 @@
 'use client'
 import {useSession,signIn,signOut} from "next-auth/react";
-import { UserCard } from "../components/UserCard";
+import { UserCard } from "@/components/molecules/UserCard";
 
 export default function Login(){
     const {data : session } = useSession();

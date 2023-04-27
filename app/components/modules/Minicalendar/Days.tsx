@@ -1,7 +1,7 @@
 import React from 'react';
-import {useCalendar} from '../../../hooks/CalendarContext';
+import {useCalendar} from '@/hooks/useCalendar';
 import { DateColumnHelper } from './DateHelper';
-import Button from '../../atoms/Button';
+import Button from '@/components/atoms/Button';
 
 interface ColumnProps {
     dates: Date[];

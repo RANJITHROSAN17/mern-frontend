@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import { DAY_NAMES } from '../../../@types/constants';
-import {useCalendar} from '../../../hooks/CalendarContext';
+import { DAY_NAMES } from '@/types/constants';
+import {useCalendar} from '@/hooks/useCalendar';
 import { Days } from './Days';
 import { getDaysOfMonth } from './DateHelper';
 
