@@ -1,6 +1,6 @@
-import Sidebar from "../components/organisms/Sidebar";
-import MainCalendar from "../components/organisms/MainCalendar";
-import { CalendarProvider } from "../hooks/CalendarContext";
+import Sidebar from "./organisms/Sidebar";
+import MainCalendar from "./organisms/MainCalendar";
+import { CalendarProvider } from "./CalendarProvider";
 const HomePage = () => {
     return (
         <>
