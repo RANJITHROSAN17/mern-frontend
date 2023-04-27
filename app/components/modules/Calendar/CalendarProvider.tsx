@@ -1,19 +1,6 @@
 'use client'
-
-import React, { createContext, useContext, useState } from 'react';
-
-type StateType<T> = [T, React.Dispatch<React.SetStateAction<T>>];
-type ContextType = {
-    currentDate: StateType<Date | null>;
-    selectedDate: StateType<Date | null>;
-    isSelectingYear: StateType<boolean>;
-    yearScrollIndex: StateType<number>;
-};
-
-export const CalendarPickerContext = createContext<ContextType>({} as ContextType);
-
-export const useCalendar = () => useContext(CalendarPickerContext);
-
+import React, {  useState } from 'react';
+import {CalendarContext} from '@/hooks/useCalendar';
 interface Props {
     initialValue?: string;
     children?: React.ReactNode;
@@ -36,7 +23,7 @@ export const CalendarProvider: React.FC<Props> = ({
     const yearScrollIndex = useState(0);
 
     return (
-        <CalendarPickerContext.Provider
+        <CalendarContext.Provider
             value={{
                 currentDate,
                 selectedDate,
@@ -45,6 +32,6 @@ export const CalendarProvider: React.FC<Props> = ({
             }}
         >
             {children}
-        </CalendarPickerContext.Provider>
+        </CalendarContext.Provider>
     );
 };

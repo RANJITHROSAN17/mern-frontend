@@ -1,7 +1,7 @@
 
 // import { useSession } from "next-auth/react"
-import HomePage from "../pages/HomePage"
-import RestrictedAccessPage from "../pages/RestrictedAccessPage"
+import HomePage from "@/components/Shared/HomePage"
+import RestrictedAccessPage from "@/components/Shared/RestrictedAccessPage"
 import "../styles/globals.css"
 const Home = () => {
     // const { data: session, status } = useSession();

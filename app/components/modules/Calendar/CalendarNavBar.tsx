@@ -1,6 +1,6 @@
-import { CalendarShowType, CalendarShowTypes } from '../../../@types/Calendar';
-import Button from '../../atoms/Button';
-import Paragraph from '../../atoms/Paragraph';
+import { CalendarShowType, CalendarShowTypes } from 'types/Calendar';
+import Button from '@/components/atoms/Button';
+import Paragraph from '@/components/atoms/Paragraph';
 const CalendarNavBar = ({ onChangeShowType }) => {
     const buttonsLabels = Object.keys(CalendarShowTypes);
     return (<div className="flex justify-between items-center px-8 bg-cyan-200 ">

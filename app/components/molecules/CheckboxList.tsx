@@ -1,7 +1,7 @@
 'use client'
 import * as React from 'react';
-import Checkbox from '../atoms/Checkbox';
-import Label from '../atoms/Label';
+import Checkbox from '@/components/atoms/Checkbox';
+import Label from '@/components/atoms/Label';
 const CheckboxList = ({ listItems, defaultChecked,Colors}: {
   listItems: string[],
   defaultChecked: boolean,

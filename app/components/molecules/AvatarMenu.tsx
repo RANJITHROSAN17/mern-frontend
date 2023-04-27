@@ -1,6 +1,6 @@
 'use client';
 import { Dropdown } from "flowbite-react";
-import Avatar from "../atoms/Avatar";
+import Avatar from "@/components/atoms/Avatar";
 // import React from 'react';
 // import { Menu, MenuButton, MenuList, MenuItem , Button, Avatar} from '@chakra-ui/react';
 // import { Text, Box} from '@chakra-ui/react'

@@ -1,6 +1,6 @@
 'use client';
 import React from 'react';
-import Button from '../../atoms/Button';
+import Button from '@/components/atoms/Button';
 import { DateColumnHelper  }  from './DateHelper';
 interface ColumnGroupProps {
     dates: Date[];
