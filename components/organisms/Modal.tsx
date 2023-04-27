@@ -22,7 +22,7 @@ const ModalEvent = () => {
           </Button>
           <Modal
             //show={visible}
-            visible = {visible}
+            show = {visible}
             size="md"
             popup={true}
             onClose={onClose}
