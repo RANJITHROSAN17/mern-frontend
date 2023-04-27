@@ -1,7 +1,5 @@
 'use client';
 import {SessionProvider} from 'next-auth/react'
-import { CacheProvider } from '@chakra-ui/next-js';
-import { ChakraProvider } from '@chakra-ui/react';
 // import { MyAccountProvider } from '../hooks/MyAccountContext'
 import "../styles/globals.css"
 export default function ProviderWrapper({
@@ -10,7 +8,7 @@ export default function ProviderWrapper({
   children: React.ReactNode;
 }) {
   return (
-   <SessionProvider>
+   <SessionProvider basePath="/mern-frontend/api/auth" >
     {children}{/* */}
    </SessionProvider>
   );
