@@ -1,7 +1,13 @@
-const Login = () => {
-    return (  <>
-    
-    </>);
+
+import Login from "./Login";
+
+const Page = () => {
+    return ( 
+
+      <Login/>
+
+      
+    );
   }
    
-  export default Login;
+  export default Page;

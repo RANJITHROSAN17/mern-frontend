@@ -5,6 +5,9 @@ const nextConfig = {
   experimental:{ appDir: true },
   reactStrictMode: false,
   basePath: '/mern-frontend',
+//   env: {
+//     NEXTAUTH_URL: 'localhost:3000/mern-frontend'
+//  },
 } 
 
 module.exports = nextConfig
