@@ -26,10 +26,10 @@
     "baseUrl": ".",
     "paths": {
       "@/types/*": ["types/*"],
-      "@/components/*": ["app/components/*"],
-      "@/hooks/*": ["app/components/hooks/*"],
-      "@/modules/*": ["app/components/modules/*"],
-      "@/Shared/*": ["app/components/Shared/*"],
+      "@/components/*": ["app/[locale]/components/*"],
+      "@/hooks/*": ["app/[locale]/components/hooks/*"],
+      "@/modules/*": ["app/[locale]/components/modules/*"],
+      "@/Shared/*": ["app/[locale]/components/Shared/*"],
       "@/styles/*": ["styles/*"]
     }
   },
