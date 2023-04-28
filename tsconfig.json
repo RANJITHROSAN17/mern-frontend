@@ -30,7 +30,8 @@
       "@/hooks/*": ["app/[locale]/components/hooks/*"],
       "@/modules/*": ["app/[locale]/components/modules/*"],
       "@/Shared/*": ["app/[locale]/components/Shared/*"],
-      "@/styles/*": ["styles/*"]
+      "@/styles/*": ["styles/*"],
+      "@/config/*": ["config/*"]
     }
   },
   "include": [
