@@ -1,7 +1,6 @@
 import React from "react"
-// import { MyAccountProvider } from '../hooks/MyAccountContext'
 import "@/styles/globals.css"
-import ProviderWrapper from "./ProviderWrapper";
+import AuthContext from "./components/contexts/AuthContext";
 import {useLocale} from 'next-intl';
 export default function RootLayout({
   children,
@@ -16,11 +15,9 @@ export default function RootLayout({
      <head/>
       <body>
         <main>
-          <ProviderWrapper>
-              {/* <MyAccountProvider> */}
+          <AuthContext>
                 {children}
-              {/* </MyAccountProvider> */}
-          </ProviderWrapper>
+          </AuthContext>
         </main>
       </body>
     </html>
