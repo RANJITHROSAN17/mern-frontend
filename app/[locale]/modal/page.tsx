@@ -1,4 +1,4 @@
-import ModalEvent from "@/components/organisms/Modal";
+import ModalEvent from "@/components/modules/ModalEvent/organisms/ModalEvent";
 
 const ModalPage = () => {
     return ( <ModalEvent/> );
