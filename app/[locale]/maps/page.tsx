@@ -38,7 +38,9 @@ const mapOptions = useMemo<google.maps.MapOptions>(
         mapContainerStyle={{ width: '100vw', height: '100vh' }}
         onLoad={(map) => console.log('Map Loaded')}
         >
-  <MarkerF position={mapCenter} onLoad={() => console.log('Marker Loaded')} />
+  <MarkerF position={mapCenter} onLoad={() => console.log('Marker Loaded')} 
+  icon = {{url: "/mern-frontend/Event.png", scaledSize: new window.google.maps.Size(64, 64)}}
+  />
 </GoogleMap>
     </div>
   );
